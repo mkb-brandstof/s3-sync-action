@@ -17,7 +17,7 @@ runs:
       run: |
         echo Hello ${{ inputs.source-name }}.      
         echo "And some more stuff"
-        echo "The input were: ${{ inuts.source-name }}"
+        echo "The input were: ${{ inputs.source-name }}"
     - id: random-number-generator
       shell: bash
       run: echo "random-number=$(echo $RANDOM)" >> $GITHUB_OUTPUT      
